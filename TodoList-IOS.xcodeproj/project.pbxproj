@@ -11,6 +11,11 @@
 		3430B3F4261A3D450071F4BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B3F3261A3D450071F4BE /* ContentView.swift */; };
 		3430B3F6261A3D460071F4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430B3F5261A3D460071F4BE /* Assets.xcassets */; };
 		3430B3F9261A3D460071F4BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430B3F8261A3D460071F4BE /* Preview Assets.xcassets */; };
+		3430B40B261A427B0071F4BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B40A261A427B0071F4BE /* LoginView.swift */; };
+		3430B40D261A429C0071F4BE /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B40C261A429C0071F4BE /* AuthenticationModel.swift */; };
+		3430B40F261A42AE0071F4BE /* AuthenticaionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B40E261A42AE0071F4BE /* AuthenticaionViewModel.swift */; };
+		3430B412261A43970071F4BE /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B411261A43970071F4BE /* InputField.swift */; };
+		3430B415261A55A70071F4BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3430B414261A55A70071F4BE /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		3430B3F5261A3D460071F4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3430B3F8261A3D460071F4BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3430B3FA261A3D460071F4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3430B40A261A427B0071F4BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3430B40C261A429C0071F4BE /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		3430B40E261A42AE0071F4BE /* AuthenticaionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticaionViewModel.swift; sourceTree = "<group>"; };
+		3430B411261A43970071F4BE /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		3430B414261A55A70071F4BE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,11 @@
 		3430B3F0261A3D450071F4BE /* TodoList-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				3430B413261A558B0071F4BE /* Styles */,
+				3430B410261A437C0071F4BE /* Components */,
+				3430B409261A423E0071F4BE /* Models */,
+				3430B408261A42360071F4BE /* ViewModels */,
+				3430B407261A422E0071F4BE /* Views */,
 				3430B3F1261A3D450071F4BE /* TodoList_IOSApp.swift */,
 				3430B3F3261A3D450071F4BE /* ContentView.swift */,
 				3430B3F5261A3D460071F4BE /* Assets.xcassets */,
@@ -67,6 +82,46 @@
 				3430B3F8261A3D460071F4BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3430B407261A422E0071F4BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3430B40A261A427B0071F4BE /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3430B408261A42360071F4BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3430B40E261A42AE0071F4BE /* AuthenticaionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3430B409261A423E0071F4BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3430B40C261A429C0071F4BE /* AuthenticationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3430B410261A437C0071F4BE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3430B411261A43970071F4BE /* InputField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3430B413261A558B0071F4BE /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3430B414261A55A70071F4BE /* ButtonStyles.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3430B40F261A42AE0071F4BE /* AuthenticaionViewModel.swift in Sources */,
 				3430B3F4261A3D450071F4BE /* ContentView.swift in Sources */,
 				3430B3F2261A3D450071F4BE /* TodoList_IOSApp.swift in Sources */,
+				3430B40B261A427B0071F4BE /* LoginView.swift in Sources */,
+				3430B415261A55A70071F4BE /* ButtonStyles.swift in Sources */,
+				3430B40D261A429C0071F4BE /* AuthenticationModel.swift in Sources */,
+				3430B412261A43970071F4BE /* InputField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
